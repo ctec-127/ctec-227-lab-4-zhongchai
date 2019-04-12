@@ -9,6 +9,7 @@ Using the PHP code examples provided in this module, **build a single page PHP a
 - Provide a link below each picture that allows you to delete the image
 - Style your page in a professional way
 - Push your code to GitHub
+- Students will be demoing their code to the class the day after the lab is due
 
 You can [view a video](https://www.youtube.com/watch?v=t2V_8czWuxM) demonstrating how my lab works. Please ignore the lab number in the video. This lab was originally part of a prior CTEC 127 class.
 
