@@ -1,0 +1,41 @@
+/* style.css */
+
+#wrapper {
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+header {
+    height: 300px;
+}
+
+header h1 {
+    line-height: 280px;
+}
+
+#formarea {
+    height: 120px;
+    background-color: #fff;
+}
+
+#gallery img {
+    max-width: 260px;
+}
+
+img-tb {
+    display: inline;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Exo', sans-serif;
+}
+
+footer {
+    
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
