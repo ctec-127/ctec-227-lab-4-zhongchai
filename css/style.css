@@ -4,34 +4,123 @@
     background-color: rgb(255, 255, 255, 0.9);
 }
 
-header {
-    height: 300px;
+#header {
+    height: 260px;
 }
 
-header h1 {
+#header h1 {
     line-height: 280px;
 }
 
 #formarea {
-    height: 120px;
+    height: 140px;
     background-color: #fff;
 }
 
-#gallery img {
-    max-width: 260px;
+#footer {
+    height: 120px;
+    background-color: rgb(15, 12, 31);
+    color: #fff;
 }
 
-img-tb {
-    display: inline;
+#footer p {
+    line-height: 120px;
 }
+
+
+/* for the image gallery hover controls 
+   credit to https://codepen.io/philcheng/pen/YWyYwG for reference
+*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+
+.img-container:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+
+.delete-button {
+    position: absolute;
+    right: 12px;
+    top: 18px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.delete-button a {
+    text-decoration: none;
+    width: 80px;
+    padding: 6px 12px;
+    text-align: center;
+    color: white;
+    border: solid 2px #999;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 1;
+}
+
+.img-container:hover .delete-button {
+    opacity: 1;
+}
+
+/* css for the file upload buttons
+    credit to https://codepen.io/adambene/pen/xRWrXN for reference
+*/
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: none;
+    color: #555;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+      color: #222;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  input[type=submit] {
+    border: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+      background-color: #aaa;
+  }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Exo', sans-serif;
 }
 
-footer {
-    
-}
 
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;

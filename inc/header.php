@@ -13,7 +13,7 @@
     <title>June's Image Gallery!</title>
 </head>
 <body>
-    <div id="wrapper" class="col-10 mx-auto">
-        <header>
+    <div id="wrapper" class="col-10 mx-auto pb-4">
+        <div id="header">
             <h1 class="text-center">June's Gallery</h1>
-        </header>
+        </div> <!-- END DIV header -->
